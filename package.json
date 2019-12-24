@@ -1,0 +1,23 @@
+{
+  "name": "serverless-offline-redis-server",
+  "version": "0.0.1",
+  "description": "Launch a local Redis server locally using Serverless Offline.",
+  "author": "Adam Pancutt <adam@pancutt.com>",
+  "license": "MIT",
+  "keywords": [
+    "Serverless",
+    "Offline",
+    "Redis"
+  ],
+  "repository": "https://github.com/apancutt/serverless-offline-redis-server",
+  "bugs": {
+    "url": "https://github.com/apancutt/serverless-offline-redis-server/issues"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "redis-server": "1"
+  },
+  "peerDependencies": {
+    "serverless-offline": "3"
+  }
+}
