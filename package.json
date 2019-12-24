@@ -1,6 +1,6 @@
 {
   "name": "serverless-offline-redis-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Launch a local Redis server locally using Serverless Offline.",
   "author": "Adam Pancutt <adam@pancutt.com>",
   "license": "MIT",
