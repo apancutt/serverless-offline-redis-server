@@ -11,8 +11,12 @@ class ServerlessOfflineRedisServer {
     this.server = new RedisServer(config);
 
     this.hooks = {
+      // backward compatible initialisation
       'before:offline:start:init': this.openServer.bind(this),
       'before:offline:start:end': this.closeServer.bind(this),
+      // modern day initialisation
+      'before:offline:start': this.openServer.bind(this),
+      'before:offline:end': this.closeServer.bind(this),
     };
 
   }
